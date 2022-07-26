@@ -1,0 +1,11 @@
+body{
+    background-image: url('../plano\ de\ fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.747);
+    margin: -20px;
+}

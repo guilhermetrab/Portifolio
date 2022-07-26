@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Nunito:wght@700&family=Yellowtail&display=swap');
+:root{
+    --cornav:#191970;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0%;
+    margin: 0%;
+
+}
+h1, h2, h3{
+    font-family: 'Asap', sans-serif;
+}
+.botao{
+    color: white;
+    background-color: #191970;
+    font-size: .9em;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.botao2{
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+    font-size: .9em;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #191970;
+    padding:10px;
+}
+
+nav > a{
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Yellowtail', cursive;
+}
+nav ul{
+    flex-direction: row;
+    width: 70%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    flex-direction: row;
+    width: 70%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../imagens/26123832093213.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left ;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 50vh;
+    justify-content: center;
+    
+}
+
+
+header h1{
+    color: white;
+}
+ header p{
+    margin-bottom: 2em;
+ }
+
+ #sobre{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+ }
+
+ #sobre h2{
+    padding: 20px;
+    color: white;
+ }
+
+ #sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+ }
+
+ #servicos{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-items: center;
+    padding: 30px;
+ }
+
+ #servicos h2{text-align: center;
+        width: 100%;}
+
+ #serviços div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+ }
+
+ #projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+ }
+
+ #contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+ }
+
+ #contato h2{
+    color: black;
+ }
+
+ footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: white;
+ }
+
+ footer a {
+    color: #00ffff;
+    
+ }
+
+ @media screen and(min-width: 768px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    nav ul{
+        flex-direction: column;
+        width: 70%;
+    }
+
+    header{
+        height: 60vh;
+        justify-content: center;
+    }
+    #sobre{
+        
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+
+    #serviços {
+        display: flex;
+    flex-direction: column;
+    align-items: center; 
+    }
+
+    #projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
